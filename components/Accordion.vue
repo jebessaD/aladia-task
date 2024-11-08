@@ -43,6 +43,7 @@ export default {
 };
 </script>
 
+
 <style scoped>
 .accordion-header {
     @apply flex justify-between items-center cursor-pointer bg-gray-100 p-4;
