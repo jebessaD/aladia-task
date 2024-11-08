@@ -9,7 +9,6 @@
       <WebDeveloperBootcamp title="The Web Developer Bootcamp 2024" :rating="4.7" :numRatings="276801"
         :numStudents="924037" instructor="Colt Steele" />
       <WhatYoullLearn />
-
       <AccordionVue />
     </NuxtPage>
     <Footer />
