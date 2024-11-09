@@ -1,5 +1,5 @@
 <template>
-  <div ref="courseCard" class="bg-white shadow-lg overflow-hidden border w-[21rem]" :class="{ 'fixed': isSticky }"
+  <div ref="courseCard" class="bg-white hidden md:inline z-40 shadow-lg overflow-hidden border w-[21rem]" :class="{ 'fixed': isSticky }"
     :style="stickyStyle">
     <div class="relative w-full">
       <div
@@ -146,7 +146,7 @@ export default {
   setup() {
     const isSticky = ref(false);
     const stickyStyle = ref({
-      top: '100px',
+      top: '20px',
       right: '80px',
     });
 
@@ -159,7 +159,7 @@ export default {
 
       if (scrollPosition > 400 && scrollPosition + viewportHeight < pageHeight - bottomThreshold) {
         isSticky.value = true;
-        stickyStyle.value = { top: '20px', right: '80px', position: 'fixed' };
+        stickyStyle.value = { top: '40px', right: '80px', position: 'fixed' };
       }
 
 
@@ -171,7 +171,7 @@ export default {
 
       else {
         isSticky.value = false;
-        stickyStyle.value = { top: '80px', right: '0px', position: 'absolute' };
+        stickyStyle.value = { top: '4px', right: '0px', position: 'absolute' };
       }
     };
 

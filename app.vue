@@ -1,8 +1,23 @@
 <template>
-  <div class=" relative">
-    <Header />
-    <div ref="courseCard" class="absolute top-28 right-20 " :class="{ 'fixed': isSticky }"
-      :style="stickyStyle">
+  <div class=" ">
+    <div class="absolute top-0 z-40 w-full">
+      <Header />
+    </div>
+
+    <div class="sticky top-0 z-20 bg-neutral-900">
+      <h2 class="text-white font-bold p-2 pb-1">Google Cloud Professional Architect: Get Certified 2022</h2>
+      <div class="rating flex items-center p-2 pt-0">
+
+        <div class="text-yellow-500 text-sm font-bold"> 4.7 <span>⭐</span> </div>
+
+        <div class="flex items-center text-blue-200 text-sm"> <span class=""> (1,632 ratings)</span>
+          <p class="text-white ml-1">11,795 students</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div ref="courseCard" class="absolute top-28 right-20 " :class="{ 'fixed': isSticky }" :style="stickyStyle">
       <CourseCard />
     </div>
     <NuxtPage>
