@@ -1,5 +1,5 @@
 <template>
-    <div class=" max-w-md md:max-w-3xl mx-20 mt-10">
+    <div class=" max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10">
         <h2 class="text-2xl font-bold mb-2">More Courses by <span class="text-violet-800">Dan Sullivan</span> </h2>
         <div class="grid border-b pb-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
             <div v-for="(course, index) in courses" :key="index"

@@ -1,5 +1,5 @@
 <template>
-    <div class="accordion max-w-md md:max-w-3xl mx-20 mt-10">
+    <div class="accordion max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10">
         <h3 class="text-2xl text-gray-800 font-bold mb-6">Course content</h3>
         <div class="flex items-center justify-between py-3">
             <p class="text-sm text-gray-700">34 sections • 143 lectures • 8h 47m total length</p>

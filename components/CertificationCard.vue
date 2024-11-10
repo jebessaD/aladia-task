@@ -1,5 +1,5 @@
 <template>
-    <div class="border bg-white max-w-md md:max-w-3xl mx-20 mt-10">
+    <div class="border bg-white max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10">
         <div class="mb-2 text-gray-800 font-bold bg-gray-100 p-4">
             Prepare for your certification with this course.
             <a href="#" class="text-violet-800 underline hover:underline">Learn more</a>

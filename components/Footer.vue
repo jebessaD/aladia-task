@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-neutral-950 text-gray-50 text-sm py-8">
-      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="md:container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- About Section -->
         <div>
           <h3 class="font-bold text-white">About</h3>
@@ -46,7 +46,7 @@
       </div>
   
       <!-- Bottom Footer Section -->
-      <div class="container mx-auto px-4 mt-8 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="md:container mx-auto px-4 mt-8 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-50 text-sm">&copy; 2024 Udemy, Inc.</p>
         <div class="flex items-center space-x-4">
           <a href="#" class="hover:underline text-gray-50 text-sm">Cookie settings</a>

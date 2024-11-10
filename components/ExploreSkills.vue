@@ -1,11 +1,11 @@
 <template>
     <div class="bg-neutral-900 text-white p-8">
         <!-- Top Companies Section -->
-        <div class="flex items-center justify-between  space-x-2 border-b border-b-gray-400 pb-4 mb-8">
-            <p class="text-lg text-center font-semibold">
+        <div class="md:flex items-center justify-between  space-x-2 border-b border-b-gray-400 pb-4 mb-8">
+            <p class="text-lg text-center text-wrap font-semibold">
                 Top companies choose <span class="text-blue-200">Udemy Business</span> to build in-demand career skills.
             </p>
-            <div class="flex items-center space-x-4">
+            <div class="flex items-center justify-between flex-wrap px-4 space-x-4">
                 <img src="@/assets/images/nasdaq-light.svg" alt="Nasdaq" class="h-12">
                 <img src="@/assets/images/volkswagen-light.svg" alt="Volkswagen" class="h-12">
                 <img src="@/assets/images/box-light.svg" alt="Box" class="h-12">

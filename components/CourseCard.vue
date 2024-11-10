@@ -7,7 +7,7 @@
 
       </div>
       <div class="absolute top-1/3 flex flex-col justify-center items-center inset-0 text-white">
-        <div class="text-white flex flex-col ">
+        <div class="text-white flex flex-col items-center justify-center">
           <svg xmlns="http:
           //www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-20 h-20">
             <path fill-rule="evenodd"
@@ -17,7 +17,7 @@
           <div :class="{ 'hidden': isSticky }" class="mt-auto text-lg font-bold">Preview this course</div>
         </div>
       </div>
-      <nuxt-link to="/" class="text-gray-800 font-bold text-lg w-full flex bg-red-200" :class="{ 'hidden': isSticky }">
+      <nuxt-link to="/" class="text-gray-800 font-bold text-lg w-full flex " :class="{ 'hidden': isSticky }">
         <img class="w-full" src="@/assets/images/preview.jpg" alt="Logo">
       </nuxt-link>
     </div>

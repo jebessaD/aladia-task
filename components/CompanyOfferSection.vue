@@ -1,5 +1,5 @@
 <template>
-    <div class="border bg-white max-w-md md:max-w-3xl mx-20 mt-10 p-4">
+    <div class="border bg-white max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10 p-4">
       <!-- Heading and Description -->
       <div class="mb-4">
         <h3 class="text-lg font-semibold text-gray-800">Top companies offer this course to their employees</h3>
@@ -10,7 +10,7 @@
       </div>
   
       <!-- Company Logos -->
-      <div class="flex items-center justify-around mt-6 space-x-4">
+      <div class="flex items-center flex-wrap justify-around mt-6 space-x-4">
         <img src="@/assets/images/nasdaq-logo.png" alt="Nasdaq" class="h-10">
         <img src="@/assets/images/volkswagen-logo.png" alt="Volkswagen" class="h-10">
         <img src="@/assets/images/box.jpg" alt="Box" class="h-10">

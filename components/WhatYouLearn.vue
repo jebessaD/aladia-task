@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-md md:max-w-3xl px-4 border mx-20 mt-10">
+  <div class="max-w-xl md:max-w-3xl px-4 border mx-4 md:mx-20 mt-10">
     <div class="p-6 text-xs">
       <h2 class="text-2xl font-bold mb-4">What you'll learn</h2>
 

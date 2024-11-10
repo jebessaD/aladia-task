@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white max-w-md md:max-w-3xl mx-20 mt-10">
+    <div class="bg-white max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10">
       <!-- Explore Related Topics -->
       <div class="mb-6">
         <h3 class="text-2xl font-bold text-gray-950 mb-4">Explore related topics</h3>

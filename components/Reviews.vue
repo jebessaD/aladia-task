@@ -1,6 +1,6 @@
 <!-- Reviews.vue -->
 <template>
-    <div class="max-w-md md:max-w-3xl mx-20 mt-4 p-4">
+    <div class="max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-4 p-4">
       <h2 class="text-2xl font-bold">⭐ 4.7 course rating • 2K ratings</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ReviewCard

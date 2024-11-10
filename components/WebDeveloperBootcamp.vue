@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-neutral-900 text-white p-10 px-5 flex w-full">
-    <div class="container flex flex-col space-y-3 px-20 mr-auto w-7/12 text-start justify-start">
+  <div class="bg-neutral-900 text-white hidden md:flex p-10 px-5 w-full">
+    <div class="md:container hidden md:flex flex-col space-y-3 px-20 mr-auto w-7/12 text-start justify-start">
       <div class="flex items-center justify-between">
         <div class="breadcrumb text-blue-200 font-semibold text-sm mb-6">
           <nuxt-link to="/it-software" class="hover:text-gray-300">IT & Software

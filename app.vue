@@ -4,7 +4,7 @@
       <Header />
     </div>
 
-    <div class="sticky top-0 z-20 bg-neutral-900">
+    <div class="hidden md:flex flex-col sticky top-0 z-20 bg-neutral-900">
       <h2 class="text-white font-bold p-2 pb-1">Google Cloud Professional Architect: Get Certified 2022</h2>
       <div class="rating flex items-center p-2 pt-0">
 
@@ -17,9 +17,11 @@
       </div>
     </div>
 
-    <div ref="courseCard" class="absolute top-28 right-20 " :class="{ 'fixed': isSticky }" :style="stickyStyle">
+    <div ref="courseCard" class="hidden md:flex flex-col absolute top-28 right-20 " :class="{ 'fixed': isSticky }" :style="stickyStyle">
       <CourseCard />
     </div>
+
+    <CourseCardMobile />
     <NuxtPage>
 
       <WebDeveloperBootcamp title="Google Cloud Professional Architect: Get Certified 2022" :rating="4.7"
@@ -64,6 +66,7 @@ import InstructorCard from '~/components/InstructorCard.vue'
 import Reviews from '~/components/Reviews.vue'
 import CardList from '~/components/CardLists.vue'
 import ExloreSkills from '~/components/ExploreSkills.vue'
+import CourseCardMobile from '~/components/CourseCardMobile.vue'
 
 export default {
   components: {
@@ -80,7 +83,8 @@ export default {
     FrequentlyBoughtTogether,
     Reviews,
     CardList,
-    ExloreSkills
+    ExloreSkills,
+    CourseCardMobile
   },
 
 };

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white max-w-md md:max-w-3xl mx-20 mt-4 p-4">
+    <div class="bg-white max-w-xl md:max-w-3xl md:mx-20 mx-4 mt-4 p-4">
         <!-- Requirements Section -->
         <div class="">
             <h2 class="text-2xl font-bold mb-4">Instructor</h2>

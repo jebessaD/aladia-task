@@ -1,19 +1,15 @@
 <template>
-    <div class="bg-white max-w-md md:max-w-3xl mx-20 mt-10">
+    <div class="bg-white max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10">
         <h2 class="text-2xl font-bold ">Students also bought</h2>
 
-        <!-- Display limited or full list based on showAllCourses -->
         <div v-for="(course, index) in displayedCourses" :key="index"
-            class="flex items-center justify-between py-4 border-b last:border-b-0">
-            <!-- Course Image -->
+            class="flex items-center flex-wrap justify-between py-4 border-b last:border-b-0">
             <img :src="course.image" alt="Course image" class="w-16 h-16 mr-4">
 
-            <!-- Course Details -->
             <div class="flex-1">
                 <h3 class="font-bold text-gray-900 mr-6">{{ course.title }}</h3>
 
                 <div class="flex items-center text-gray-600 text-sm mt-1 space-x-2">
-                    <!-- Optional Bestseller Badge -->
                     <span v-if="course.isBestseller"
                         class="bg-yellow-200 text-yellow-800 px-2 py-0.5 text-xs font-semibold">Bestseller</span>
 
@@ -23,8 +19,7 @@
                 </div>
             </div>
 
-            <!-- Course Rating and Enrollment -->
-            <div class="flex items-center justify-between text-sm text-gray-700 w-1/3">
+            <div class="md:flex hidden items-center flex-wrap justify-between text-sm text-gray-700 w-1/3">
                 <div class="flex items-center space-x-1">
                     <span class="font-semibold">{{ course.rating }}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-600" fill="currentColor"
@@ -37,19 +32,16 @@
                 <span>{{ course.enrollments.toLocaleString() }}</span>
                 <div class="text-lg font-bold text-gray-900 mt-1">{{ course.price }}</div>
             </div>
-            <!-- Favorite Icon -->
             <button
-                class="ml-4 flex justify-center items-center text-gray-500 hover:text-gray-800 w-10 h-10 rounded-full border border-black">
+                class="ml-4 hidden md:flex justify-center items-center text-gray-500 hover:text-gray-800 w-10 h-10 rounded-full border border-black">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2">
-                    <!-- Outlined Heart Shape -->
                     <path
                         d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                 </svg>
             </button>
         </div>
 
-        <!-- Show More / Show Less Button -->
         <button @click="toggleCourses"
             class="w-full mt-4 border-black border text-sm py-3 font-semibold hover:bg-gray-100">
             {{ showAllCourses ? "Show Less" : "Show More" }}

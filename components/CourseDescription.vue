@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white max-w-md md:max-w-3xl mx-20 mt-10 p-4">
+    <div class="bg-white max-w-xl md:max-w-3xl mx-4 md:mx-20 mt-10 p-4">
       <!-- Requirements Section -->
       <div class="mb-6">
         <h2 class="text-2xl font-bold mb-4">Requirements</h2>
